@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Athiti', sans-serif;
+}
+body {
+    background-color: #FFF8EE;
+}
+/* Class for bg-color */
+.color-bg {
+    background-color: #FFF8EE;
+}
+/* Announcement Section */
+.shop-announcement {
+    background-color: #F26938;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    text-align: center;
+}
+/* Navbar Section*/
+#header-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0;
+    background-color: #FFF8EE;
+    border-bottom: 1px solid black;
+}
+#header-navbar ul li a {
+    color: black;
+}
+.navbar-cs-brand {
+    display: inline-block;
+}
+.navbar-cs-brand img {
+    width: 200px;
+}
+.navbar-cs-menu .navbar-first-menu {
+    display: flex;
+}
+.navbar-first-menu li {
+    margin: 0 20px;
+}
+/* Carousel Section */
+#header-carousel {
+    position: relative;
+}
+#header-carousel .owl-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+.arrow {
+    display: inline-block;
+}
+.divider {
+    display: inline-block;
+    height: 50px;
+    border-left: 3px solid #F26938;
+    margin: auto 0;
+}
+/* header-group Section */
+.header-group {
+    background-color: #F8DAB3;
+    color: #F26938;
+    padding: 50px 0;
+}
+.header-group-text h3 {
+    color: #F26938;
+}
+.header-group-text p {
+    font-size: 25px;
+}
+/* Set all margin section */
+/* Product Categories Section */
+#product-cate-section, #first-promotion, #line-ads-section, #best-sell-section, #contact-tagline, #promo-announce, #grooming-service, #product-keyword, #article-section, #second-promotion, #review-section {
+    margin: 50px 0;
+    padding: 0;
+}
+#contact-tagline, #cta-section {
+    padding: 50px 0;
+}
+#product-cate-section h2, #first-promotion h2, #review-section h2, #product-keyword h2, #article-section h2, #best-sell-section h2, #second-promotion h2, #review-section h2 {
+    padding-bottom: 50px;
+}
+#review-section h2 {
+    margin-bottom: 0;
+}
+.pc-text {
+    color: #F26938;
+}
+/* Promotions Section */
+.view-all-promo-link {
+    text-align: right;
+    margin-top: 25px;
+}
+.view-all-promo-link a {
+    color: #F26938;
+}
+/* Line Section */
+#line-ads-section .line-button, .best-sell-button, .promo-detail-button, .article-button, .view-best-sell-button, .key-sell-button, .view-all-articles, .view-food-all {
+    background-color: #F26938;
+    color: #fff;
+}
+.line-detail {
+    padding: 0 50px;
+}
+/* Best Selling Section */
+#best-sell-section .columns .column {
+    padding-bottom: 50px;
+}
+.view-all-button {
+    text-align: center;
+}
+.best-sell-button {
+    width: 100%;
+    display: inline-block;
+}
+/* Contact Tagline */
+#contact-tagline, #cta-section {
+    background-color: #F8DAB3;
+}
+#contact-tagline p, #cta-section p {
+    color: #F26938; 
+}
+/* Promotion annoucement Section */
+.promo-announce-detail { 
+    padding: 0 60px;
+}
+/* Grooming Section */
+#grooming-service {
+    text-align: center;
+    background-image: url("../imgs/grooming-img/grooming-bg.png");
+    background-color: #666666;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#grooming-service .container {
+    padding: 300px 0;
+}
+.grooming-gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 300px 0;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+#grooming-service h1, #grooming-service p {
+    color: black;
+    font-size: 100px;
+}
+#grooming-service p {
+    font-size: 40px;
+}
+/* Product Keyword */
+.product-key-button {
+    margin-top: 50px;
+}
+/* Review Section */
+#review-section {
+    font-size: 30px;
+}
+#review-section div.owl-dots {
+    margin-top: 50px;
+}
+/* cta Section */
+.cta-detail {
+    padding: 0 80px;
+}
+/* footer */
+footer {
+    padding-top: 50px;
+}
+.social {
+    margin-top: 20px;
+}
+.social-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+.social .social-group p a {
+    color: white;
+}
+.social img {
+    width: 35px;
+    margin-right: 10px;
+}
+footer, footer nav {
+    background-color: #F26938;
+    color: #fff;
+    font-size: 20px;
+}
+footer nav a {
+    color: #fff;
+}
+footer nav {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+footer .copyright {
+    border-top: 1px solid white;
+    text-align: right;
+    padding: 50px 0;
+}
+#star-pet-section .content p, #decorate-pet-section .content p {
+    font-size: 25px;
+}
+/* link best-selling.php */
+.page-link-group {
+    width: 100%;
+    margin-top: 20px;
+}
+.page-link {
+    text-align: right;
+    
+}
+.page-link a {
+    font-size: 25px;
+    color: black;
+}
+/* Decorate Section */
+#star-pet-section img {
+    width: 100%;
+}
+/* For articles landing.php */
+.article-landing-pg .columns {
+    margin-bottom: 0;
+}
+.article-landing-pg .columns .column {
+    margin-bottom: 50px;
+}
+/* Responsive Section */
+/* Navbar 1024px up */
+@media only screen and (min-width: 1024px) {
+
+    .burger {
+        display: none;
+    }
+    .navbar-cs-menu ul li {
+        font-size: 25px;
+        padding: 20px 0;
+    }
+    .first-dropdown {
+        margin-top: 20px;
+    }
+    .first-dropdown, .second-dropdown {
+        display: none;
+        width: 240px;
+        position: relative;
+        box-shadow: 1px 2px 8px 4px rgba(0, 0, 0, 0.1);
+    }
+    .third-dropdown {
+        display: none;
+        width: 150px;
+        box-shadow: 1px 2px 8px 4px rgba(0, 0, 0, 0.1);
+    }
+    .navbar-cs-menu .navbar-first-menu .has-dropdown:hover .first-dropdown {
+        position: absolute;
+        z-index: 10;
+        display: block;
+    }
+    .has-dropdown .first-dropdown li:hover .second-dropdown {
+        display: block;
+        position: absolute;
+        left: 100%;
+        top: 0;
+    }
+    .first-dropdown .second-dropdown li:hover .third-dropdown {
+        display: block;
+        position: absolute;
+        left: 100%;
+        top: 0;
+    }
+    .has-dropdown .arrow {
+        transform: rotate(90deg);
+        margin-left: 15px;
+    }
+    .first-dropdown ul li, .third-dropdown ul li {
+        position: relative;
+        padding: 15px 0;
+    }
+    .pd-arrow, .food-arrow {
+        position: absolute;
+        right: 10px;
+    }
+
+}
+/* Responsive 320px - 768px */
+/* Responsive 769px - 1023px */
+
+/* Responsive 1024px - 1215px */
+
+/* Responsive 1216px - 1407px */
+/* Responsive 1408px up */
